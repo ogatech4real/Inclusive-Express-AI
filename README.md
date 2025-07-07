@@ -63,6 +63,8 @@ inclusive-express-ai/
 ├── package.json         # Project metadata and scripts
 └── README.md            # Project documentation
 
+---
+
 🏁 Getting Started (Local Development)
 
 1️⃣ Clone the Repository
@@ -84,8 +86,7 @@ Place localhost.pem and localhost-key.pem in the project root directory.
 Ensure vite.config.ts includes:
 
 ts
-Copy
-Edit
+
 server: {
   https: {
     key: fs.readFileSync('./localhost-key.pem'),
@@ -107,23 +108,7 @@ Go to https://developer.adobe.com/express/add-ons/playground/
 
 Enter your https://localhost:5241 URL
 
-Test Add-on functionality inside Adobe Express
-
- Building & Deployment
-Build for Production
-
-bash
-npm run build
-Preview Production Build Locally
-
-bash
-npm run preview
-Deploy to Netlify or Vercel
-Deploy the contents of dist/ to:
-
-[Netlify](https://inclusive-express-ai.netlify.app/)
-
-Ensure your deployed URL uses HTTPS for Adobe Express integration.
+---
 
 ## Future Improvements
 
@@ -133,11 +118,16 @@ More design templates and inclusive content options
 Real-world testing with parents, teachers, disabled users, and community groups
 Mentor collaboration for production-ready Adobe Express Add-on deployment
 
+---
+
 ## Acknowledgments
+
 Thanks to:
 Adobe Express Add-ons Team
 OpenAI
 React, Vite, and Tailwind Communities
+
+---
 
 👤 About the Author
 Adewale Ogabi — AI and Accessibility Enthusiast, Developer passionate about empowering users through inclusive technology.
